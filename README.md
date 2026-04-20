@@ -95,7 +95,7 @@ Din punct de vedere al Platformei ROeID integrarea prin protocol OpenID implică
 
 a)	Se definește maparea de atribute în zona de Claims de la Authorization Provider: Exemplu: telefon<>mobile, prenume<>givenName, etc.
 
-b)	Se creează un profil nou (scope) în Authorization Provider-ul definit deja. Acest profil va conține lista de atribute stabilită anterior. Exemplu:ServiceProviderNameScope:Gender,CurrentAddress, PersonalIdentifier,FirstName,LastName
+b)	Se foloseste scopul existent(default) care contine toata lista de claimuri disponibile in ROeID
 
 c)	Se creează un nou client de OpenID în ROeID cu următoarele caracteristici:
 - SeviceProviderName– numele furnizorului de servicii
