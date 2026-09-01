@@ -1,4 +1,4 @@
-name: CI - Documentation & Assets Linting
+name: CI 
 
 on:
   push:
