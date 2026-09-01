@@ -28,4 +28,4 @@ jobs:
 
       - name: Validate CSS Assets
         run: |
-          npx stylelint "html/**/*.css" --allow-empty-input
+          npx stylelint "html/**/*.css" --allow-empty-input --config '{"extends": "stylelint-config-standard"}'
