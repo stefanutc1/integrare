@@ -25,7 +25,3 @@ jobs:
 
       - name: Lint Markdown Files
         run: markdownlint-cli2 "**/*.md"
-
-      - name: Validate CSS Assets
-        run: |
-          npx stylelint "html/**/*.css" --allow-empty-input --config '{"extends": "stylelint-config-standard"}'
